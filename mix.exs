@@ -43,11 +43,11 @@ defmodule CodegenTest.MixProject do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:mix_codegen, git: "https://github.com/mikehostetler/mix_codegen.git", override: true},
-      {:mix_codegen_ecto_migration, git: "https://github.com/mikehostetler/mix_codegen_ecto_migration.git"},
+      # {:mix_codegen, git: "https://github.com/mikehostetler/mix_codegen.git", override: true},
+      # {:mix_codegen_ecto_migration, git: "https://github.com/mikehostetler/mix_codegen_ecto_migration.git"},
       # Use these if working locally
-      # {:mix_codegen, path: "../mix_codegen"},
-      # {:mix_codegen_ecto_migration, path: "../mix_codegen_ecto_migration"},
+      {:mix_codegen, path: "../mix_codegen"},
+      {:mix_codegen_ecto_migration, path: "../mix_codegen_ecto_migration"},
       {:cowboy, "~> 1.0"}
     ]
   end

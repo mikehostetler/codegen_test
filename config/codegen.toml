@@ -1,0 +1,21 @@
+[[table]]
+name = "user"
+migration_timestamp = 2018120101
+context = "Accounts"
+schema = "User"
+table = "users"
+fields = [ { name = "name", type = "string" },
+           { name = "age", type = "integer" } ]
+
+
+# [[codegen.ecto.migration]]
+# name = "add_user_table"
+# timestamp = 2018120101
+
+# [[codegen.ecto.migration]]
+# name = "add_post_table"
+# timestamp = 2018120101
+
+# [[codegen.ecto.migration]]
+# name = "add_comments_table"
+# timestamp = 2018120101
